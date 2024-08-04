@@ -21,7 +21,7 @@ body {
     height: 100%;
 }
 
-.clearfix:after {
+/* .clearfix:after {
     display: block;
     content: "";
     clear: both;
@@ -279,7 +279,7 @@ button.accent {
 
     .connecting {
         top: 60px;
-    }
+    } */
 
     .chat-header h2 {
         font-size: 1.1em;
