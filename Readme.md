@@ -52,8 +52,8 @@ The application is structured to follow best practices in software design, using
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/Anarogk/Resolver.git
-    cd Resolver
+    git clone https://github.com/Anarogk/SakuraDM.git
+    cd SakuraDM
     ```
 
 2. Install the dependencies:
@@ -76,29 +76,6 @@ The application is structured to follow best practices in software design, using
 
 Once the application is running, open the web interface in your browser. You can join the chat by entering a username. Send messages to the public chat, and see real-time updates as other users join, leave, or send messages.
 
-## File Structure
-
-Here is an overview of the key files and their purposes:
-
-```
-src/main/java/com/webSocket/
-├── chat/
-│   ├── ChatController.java        # Handles incoming WebSocket messages
-│   ├── ChatMessage.java           # Data model for chat messages
-│   ├── MessageType.java           # Enum for message types (CHAT, JOIN, LEAVE)
-│   └── ...
-├── config/
-│   ├── webSocketConfig.java       # Configures WebSocket endpoints and message broker
-│   ├── webSocketEventListener.java # Listens for WebSocket events (e.g., disconnect)
-│   └── ...
-├── application.properties         # Application configuration
-└── ...
-```
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
